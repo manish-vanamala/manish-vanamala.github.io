@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* navbar styling */
+.navbar {
+    width: 100%;
+    padding: 15px;
+    background: rgb(216, 77, 77);
+
+}
+
+.navbar .menu li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.navbar .menu li a {
+    color: black;
+    font-weight: 500;
+    margin-right: 25px;
+
+}
+
+/* home section styling */
+.home {
+    display: flex;
+
+    background: url("./images/41f17538-e6cf-48bb-99dc-7a2c23ccb467.jpeg") no-repeat right;
+    background-color: rgb(154, 201, 207);
+    height: 100vh;
+    min-height: 500px;
+}
+
+.home .max-width {
+    margin: auto auto auto 100px;
+}
+
+.home .home-content .first-line {
+    font-size: 30px;
+}
+
+.home .home-content .second-line {
+    font-size: 80px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.home .home-content .third-line {
+    font-size: 40px;
+}
+
+.home .home-content .third-line span {
+    color: rgb(216, 77, 77);
+}
+
+/* about section styling */
+
+.aboutme .title {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding: 20px auto 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutme .about-content {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme .about-content .left {
+    width: 35%;
+}
+
+.aboutme .about-content .left img {
+    height: 400px;
+    width: 400px;
+    padding-left: 5px;
+    border-radius: 6px;
+}
+.aboutme .about-content .right .name{
+    font-size: 25px;
+}
+.aboutme .about-content .right .name span{
+    font-size: 40px;
+    color: rgb(216, 77, 77);
+    font-weight: 500;
+}
+.aboutme .about-content .right {
+    width: 55%;
+    margin-right: auto;
+    font-size: 25px;
+    word-spacing: 2px;
+}
