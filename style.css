@@ -99,3 +99,32 @@
     font-size: 25px;
     word-spacing: 2px;
 }
+
+/* gallery section styling */
+
+.gallery .title {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding: 20px auto 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gallery .container{
+    display:flex;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery .container .card img {
+    height: 500px;
+    width: 500px;
+    padding-left: 5px;
+    border-radius: 50%;
+
+}
+.gallery .container .card{
+    border:2px solid black;
+    margin: 20px;
+    padding:30px;
+    border-radius: 50%;
+}
