@@ -1,136 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
+
     <nav class="navbar">
-        <div class="max-width">
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-            </ul>
-        </div>
+        <div class="logo">SMS</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-address-card"></i> About Me</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="#contact"><i class="fas fa-address-book"></i> Contact me</a></li>
+        </ul>
     </nav>
-    <!-- Home section -->
+    <!-- home section -->
     <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="first-line">My name is</div>
-                <div class="second-line">Manish</div>
-                <div class="third-line">and I'm a <span>Programmer</span></div>
-            </div>
+        <div class="text">
+            My name is <div class="name">Vanamala Manish</div>
+            and I'm a <span>Programmer</span>
+        </div>
+        <div class="image">
+            <img src="./images/41f17538-e6cf-48bb-99dc-7a2c23ccb467.jpeg" alt="">
         </div>
     </section>
-    <!-- about me section -->
-    <section class="aboutme" id="aboutme">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="left">
-                    <img src="./images/c963e86b-5e5e-40e6-ad99-34b622114ca1.jpeg">
-                </div>
-                <div class="right">
-                    <div class="name">My name is <span> Vanamala Manish.</span></div>
-                    <p> Pursuing my B.tech from VJIT.
-                        Currently working as a dev Intern from Zemoso Technologies.
-                        I'm Good at C, Java , Python Programming languages.
-                        I have done internship from National Engineering Olympiad in the domain of Machine Learning and
-                        done the project which they have asigned to me called youtube adview Prediction
-                        , On my own Interest I have done few projects like
-                        Face Recognition, Speech Recognition using python.
-                    </p>
-                </div>
-            </div>
+    <!-- aboutme section -->
+    <h2 class="title" id="about">About Me</h2>
+    <section class="about">
+        <div class="image">
+            <img src="./images/c963e86b-5e5e-40e6-ad99-34b622114ca1.jpeg" alt="">
         </div>
-    </section>
+        <div class="text">
 
-    <!-- Gallery section -->
-    <section class="gallery" id="gallery">
-        <div class="max-width">
-            <h2 class="title">My Gallery</h2>
-            <div class="container">
-                <div class="card">
-                    <img src="images/084e9180-85a6-4753-988d-ed999eae2100.jpeg">
-                </div>
-                <div class="card">
-                    <img src="images/18bec7bc-d9ad-4c6c-b9bb-a1f410cc03ef.jpeg">
-                </div>
-                <div class="card">
-                    <img src="images/0e3d2856-3aed-4a63-a6fd-1feb09a7e21f.jpeg">
-                </div>
-
-            </div>
+            <p>My name is manish.
+                Pursuing my B.tech from VJIT.
+                Currently working as a dev Intern from Zemoso Technologies.
+                I'm Good at C, Java , Python Programming languages.
+                I have done internship from National Engineering Olympiad in the domain of Machine Learning and
+                done the project which they have asigned to me called youtube adview Prediction
+                , On my own Interest I have done few projects like
+                Face Recognition, Speech Recognition using python.
+            </p>
         </div>
+
     </section>
-    <!-- contactme section -->
-    <section class="contactme">
-        <div class="max-width">
-            <h2 class="title">Contact Me</h2>
-            <div class="contact-content">
-                <div class="left">
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Vanamala Manish</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Hyderabad, Telangana</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">vanamalamanish@gmail.com</div>
-                            </div>
-                        </div>
+    <!-- gallery section -->
+    <div id="gallery">
+        <h2 class="gallery-title">My Gallery</h2>
+        <section class="gallery">
+            <div class="image"><img src="./images/084e9180-85a6-4753-988d-ed999eae2100.jpeg" alt=""></div>
+            <div class="image"><img src="./images/18bec7bc-d9ad-4c6c-b9bb-a1f410cc03ef.jpeg" alt=""></div>
+            <div class="image"><img src="./images/0e3d2856-3aed-4a63-a6fd-1feb09a7e21f.jpeg" alt=""></div>
+            <div class="image"><img src="./images/41f17538-e6cf-48bb-99dc-7a2c23ccb467.jpeg" alt=""></div>
+        </section>
+    </div>
+    <!-- contact section -->
+    <div id="contact" >
+        <h2 class="contact-title">Contact Me</h2>
+        <section class="contact">
+        <div class="left">
+
+            <div class="icons">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <div class="info">
+                        <div class="head">Name</div>
+                        <div class="sub-title">Vanamala Manish</div>
                     </div>
                 </div>
-                <div class="right">
-                    <div class="text">Message Me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="email" required>
-                            </div>
-                            </div>
-                            <div>
-                                <div class="field">
-                                    <input type="text" placeholder="Subject" required>
-                                </div>
-                                <div class="field textarea">
-                                    <textarea cols="30" rows="10" placeholder="Describe" required></textarea>
-                                </div>
-                            </div>
-                            <div class="button">
-                                <button type="submit">Send Message</button>
-                            </div>
-                        
-                    </form>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info">
+                        <div class="head">Address</div>
+                        <div class="sub-title">Hyderabad, Telangana</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">vanamalamanish@gmail.com</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="right">
+            <div class="text">Message Me</div>
+            <form action="#">
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="name" required>
+                    </div>
+                    <div class="field email">
+                        <input type="email" placeholder="email" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="field">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Describe" required></textarea>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Send Message</button>
+                </div>
+
+            </form>
+        </div>
     </section>
+    </div>
 
-
+    <!-- footer section -->
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/vanamalamanish/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/manish-vanamala" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/vanamala-manish/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009753491960" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-address-card"></i> About Me</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="#contact"><i class="fas fa-address-book"></i> Contact me</a></li>
+            </ul>
+        </div>
+        <p class="copyright">
+            &copy By Vanamala Manish @ 2021
+        </p>
+    </section>
 </body>
 
 </html>
