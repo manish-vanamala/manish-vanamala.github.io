@@ -139,7 +139,7 @@ nav .menu-btn i {
     flex-wrap: wrap;
     margin: 2%;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .gallery .image {
@@ -262,17 +262,19 @@ nav .menu-btn i {
 
 /* footer section styling */
 
-.footer{
-    padding:40px 0px;
+.footer {
+    padding: 40px 0px;
     background-color: #fff;
     font-weight: 500;
 }
-.footer .social{
+
+.footer .social {
     text-align: center;
     padding-bottom: 25px;
     margin: 4px;
 }
-.footer .social a{
+
+.footer .social a {
     font-size: 30px;
     color: inherit;
     width: 40px;
@@ -283,58 +285,62 @@ nav .menu-btn i {
     margin: 0 8px;
     opacity: 0.75;
 }
-.footer .social a:hover{
+
+.footer .social a:hover {
     opacity: 0.5;
 }
 
-.footer ul{
-    margin-top:0;
-    padding:0;
+.footer ul {
+    margin-top: 0;
+    padding: 0;
     font-size: 18px;
     text-align: center;
 }
 
-.footer ul a{
+.footer ul a {
     color: inherit;
     opacity: 0.8;
 }
-.footer ul li{
-display: inline-block;
-padding: 0 15px;
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
 
 }
 
-.footer ul a:hover{
+.footer ul a:hover {
     text-decoration: underline;
     opacity: 1;
 }
 
-.footer .copyright{
+.footer .copyright {
     margin-top: 30px;
     text-align: center;
     font-size: 15px;
-    color:inherit
-
+    color: inherit
 }
-@media(max-width:1400px){
+
+@media(max-width:1400px) {
     .gallery .image {
 
-        padding:2% 3% 2% 3%;
+        padding: 2% 3% 2% 3%;
     }
+
     .about {
         justify-content: space-around;
     }
 }
 
 @media(max-width: 949px) {
-    .home{
+    .home {
         height: 80vh;
     }
+
     .home .image {
         display: none;
     }
-    
-    
+
+
     #click:checked~.menu-btn i::before {
         content: "\f00d";
     }
@@ -342,9 +348,9 @@ padding: 0 15px;
     nav {
         position: fixed;
         top: 0%;
-        height:80px;
+        height: 80px;
         width: 100%;
-        
+
     }
 
     nav ul {
@@ -395,14 +401,16 @@ padding: 0 15px;
         display: block;
         color: #fff;
     }
-    .contact .left{
+
+    .contact .left {
         display: none;
     }
+
     .gallery .image {
 
-        padding:2% 1% 2% 1%;
+        padding: 2% 1% 2% 1%;
     }
-   
+
 }
 
 @media (max-width:680px) {
@@ -410,8 +418,10 @@ padding: 0 15px;
         margin: 1%;
     }
 
+
     .home .text {
         font-size: 20px;
+        text-align: center;
     }
 
     .home .text .name {
@@ -423,25 +433,33 @@ padding: 0 15px;
     }
 
     .about .text {
-        padding:0% 10%;
+        padding: 0% 10%;
         width: 100%;
         text-align: justify;
     }
-    .about .image img{
+
+    .about .image img {
         height: 250px;
         width: 250px;
-        
+
     }
+
+    .about, .contact {
+        margin: 0%;
+    }
+
     .contact {
         width: 100%;
         display: block;
     }
+
     .contact .right .text {
         display: block;
         text-align: center;
         margin: 3%;
     }
-     .contact .right {
+
+    .contact .right {
         padding: 5%;
         align-items: center;
         justify-content: center;
@@ -455,7 +473,7 @@ padding: 0 15px;
     .contact .right form .field,
     .contact .right form .fields .field,
     .contact .right form .button {
-        
+
         padding-left: 5%;
         width: 90%;
     }
@@ -464,5 +482,5 @@ padding: 0 15px;
         margin: 0%;
     }
 
-    
+
 }
