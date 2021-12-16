@@ -97,21 +97,24 @@
         </div>
         <div class="right">
             <div class="text">Message Me</div>
-            <form action="#">
+            <form action="https://formsubmit.co/vanamalamanish4@gmail.com" method="POST">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="fields">
                     <div class="field name">
-                        <input type="text" placeholder="name" required>
+                        <input type="text" placeholder="Enter your name"  name="name" required>
                     </div>
                     <div class="field email">
-                        <input type="email" placeholder="email" required>
+                        <input type="email" placeholder="Enter Your email" name="email" required>
                     </div>
                 </div>
                 <div>
                     <div class="field">
-                        <input type="text" placeholder="Subject" required>
+                        <input type="text" placeholder="Subject" name="_subject" required>
                     </div>
                     <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Describe" required></textarea>
+                        <textarea cols="30" rows="10" placeholder="Describe" name="message" required></textarea>
                     </div>
                 </div>
                 <div class="button">
